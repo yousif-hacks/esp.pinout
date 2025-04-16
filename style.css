@@ -1,0 +1,61 @@
+/* style.css */
+body {
+    background-image: url('https://images.steamusercontent.com/ugc/1474318469446234894/634E77F566C9948FE2959C42361021FD1F9BCE16/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Makes the body fill the entire viewport height */
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Centers the content vertically */
+    text-align: center;
+}
+
+h1 {
+    color: rgb(76, 0, 255);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+h1 {
+    top: 47%; /* Position the h1 closer to the top */
+}
+
+
+img {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5; /* Optional: makes the background GIF slightly transparent */
+}
+
+h2 {
+    color: rgb(0, 255, 21);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+h2 {
+    bottom: 53%; /* Position the h2 closer to the bottom */
+}
+
+h3 {
+    color: rgb(218, 203, 0);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+h3 {
+    bottom: 48%; /* Position the h2 closer to the bottom */
+}
